@@ -1,4 +1,5 @@
 import { StyledCard } from "../Styles/productCard";
+import 'animate.css';
 
 export function ProductCard({ product, setCart, cart, addProduct }) {
   return (

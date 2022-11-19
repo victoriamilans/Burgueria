@@ -1,4 +1,5 @@
 import { CartCard } from "../Styles/cartCard";
+import 'animate.css';
 
 export function ShoppingCartCard({
   cart,
@@ -9,7 +10,7 @@ export function ShoppingCartCard({
 }) {
   return cart.map((product, index) => {
     return (
-      <CartCard key={index}>
+      <CartCard key={index} className="animate__animated animate__bounceInLeft">
         <div className="productContent">
           <img src={product.img} alt="" />
           <div className="product">

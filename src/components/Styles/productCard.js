@@ -16,6 +16,11 @@ export const StyledCard = styled.li`
   img {
     width: 177px;
     align-self: center;
+    transition: all 0.6s ease 0s;
+  }
+
+  img:hover{
+    transform: scale(1.2);
   }
 
   div {

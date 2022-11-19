@@ -1,10 +1,12 @@
 import logo from "../assets/logo.png";
 import { StyledHeader } from "../Styles/header";
+import 'animate.css'
+
 export function Header({ setInputValue }) {
   return (
     <StyledHeader>
       <nav>
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo" className="animate__animated animate__pulse" />
         <div>
           <input
             placeholder="Digitar Pesquisa"

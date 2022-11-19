@@ -42,7 +42,6 @@ export const GlobalStyle = createGlobalStyle`
     height: 500px;
   }
 
-
   @media(min-width: 1100px){
     .cartArea {
     width: 45%;

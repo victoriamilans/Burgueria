@@ -5,6 +5,7 @@ import { ProductList } from "./components/ProductList";
 import { ShoppingCart } from "./components/ShoppingCart";
 import { GlobalStyle } from "./components/Styles/global";
 import { Container } from "./components/Styles/container";
+import 'animate.css';
 
 function App() {
   const [productsList, setProductList] = useState([]);
@@ -18,7 +19,7 @@ function App() {
       .catch((err) => console.log(err));
   }, []);
 
-  function removeProduct(remove) {
+  function removeProduct(remove, target) {
     const filtered = cart.filter((product) => {
       if (product !== remove) {
         return product;
@@ -52,7 +53,7 @@ function App() {
     });
     if (productIndex === -1) {
       const newProduct = { ...product, count: 1, quantity: 1 };
-      setCart((old) => [...old, newProduct]);
+      setCart((old) => [...old, newProduct]); 
     } else {
       const newProduct = {
         ...product,
@@ -66,7 +67,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App animate__fadeIn animate__animated" >
       <GlobalStyle></GlobalStyle>
       <Header setInputValue={setFilter} />
       <Container>
