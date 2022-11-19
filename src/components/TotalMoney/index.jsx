@@ -13,7 +13,6 @@ export function TotalMoney({ cart, setCart }) {
       .toLocaleString("pt-BR", {
         currency: "BRL",
         style: "currency",
-        minimumIntegerDigits: 2,
       });
 
     return (

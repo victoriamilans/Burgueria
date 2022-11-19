@@ -3,7 +3,6 @@ import "./App.css";
 import { Header } from "./components/Header";
 import { ProductList } from "./components/ProductList";
 import { ShoppingCart } from "./components/ShoppingCart";
-import { TotalMoney } from "./components/TotalMoney";
 import { GlobalStyle } from "./components/Styles/global";
 import { Container } from "./components/Styles/container";
 
