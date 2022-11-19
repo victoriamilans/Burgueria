@@ -13,9 +13,18 @@
 <h2> Tecnologias 💻 </h2>
 
 <ul>
-  <li> React (Styled Components, axios, animate CSS </li>
+  <li> React </li>
+  <li> Styled Components </li>
+  <li> Axios </li>
+  <li> Animate CSS </li>
 </ul>
 
 ---
-
+<div align="center">
 <a href="https://burgueria.vercel.app/">Burgueria</a>
+</div>
+
+---
+
+<h2> Visualização 👀 </h2>
+<img src="https://user-images.githubusercontent.com/106447484/202868439-508b45e1-b57f-4eb2-994e-de1511ca00a7.png"/>
